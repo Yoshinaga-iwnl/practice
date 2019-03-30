@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-url = "https://www.pixiogaming.jp/"
+url = ""
 
 soup = BeautifulSoup(requests.get(url).content,'lxml')
 
